@@ -39,7 +39,7 @@ Copy the template
 Create a new repository on Github. Everywhere you see ``$NEW_PROJECT_NAME`` in the following script, replace it with the name of the repository you just created.
 
 ```
-git clone git@github.com:nprapps/app-template.git $NEW_PROJECT_NAME
+git clone git@github.com:inn/app-template.git $NEW_PROJECT_NAME
 cd $NEW_PROJECT_NAME
 
 mkvirtualenv $NEW_PROJECT_NAME
@@ -51,7 +51,7 @@ fab bootstrap
 
 This will setup the new repo and will replace `README.md` (this file) with `PROJECT_README.md`. See that file for usage documentation.
 
-By default `bootstrap` will use `nprapps` as the Github username, and the current directory name as the repository name. **This is a best practice**, but you can override these defaults if you need to:
+By default `bootstrap` will use `inn` as the Github username, and the current directory name as the repository name. **This is a best practice**, but you can override these defaults if you need to:
 
 ```
 fab bootstrap:$GITHUB_USERNAME,$REPOSITORY_NAME
