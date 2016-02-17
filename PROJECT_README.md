@@ -302,7 +302,7 @@ Deploy to EC2
 
 You can deploy to EC2 for a variety of reasons. We cover two cases: Running a dynamic web application (`public_app.py`) and executing cron jobs (`crontab`).
 
-Servers capable of running the app can be setup using our [servers](https://github.com/nprapps/servers) project.
+Servers capable of running the app can be setup using the NPR [servers](https://github.com/nprapps/servers) project.
 
 For running a Web application:
 
